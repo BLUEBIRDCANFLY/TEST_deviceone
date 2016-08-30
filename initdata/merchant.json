@@ -1,0 +1,1053 @@
+[
+        {
+            "istop": 1,
+            "imgs":"http://wd.geilicdn.com/vshop723500525-1469438913698-6744499.jpg?w=480&h=0",
+            "status": 1,
+            "item_desc": "新鲜枸杞芽茶两盒共125克，全国发货",
+            "itemid": "1912560275",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "40",
+                    "cate_id": 66114091,
+                    "cate_name": "冲调饮品"
+                }
+            ],
+            "stock": 1002,
+            "price": "158.00",
+            "update_time": "2016-08-10 15:18:03",
+            "item_name": "新鲜枸杞芽茶两盒共125克，全国发货",
+            "fx_fee_rate": "",
+            "thumb_imgs":"http://wd.geilicdn.com/vshop723500525-1469438913698-6744499.jpg?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5545773657",
+                    "title": "两盒",
+                    "stock": "1002",
+                    "price": "158.00",
+                    "sku_merchant_code": "11032"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 1,
+            "imgs":"http://wd.geilicdn.com/vshop723500525-1469431379277-6974878.jpg?w=480&h=0",
+            "status": 1,
+            "item_desc": "平安富硒蒜酱200克8瓶，礼盒装（全国发货，包邮）",
+            "itemid": "1912441777",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "30",
+                    "cate_id": 65630593,
+                    "cate_name": "调料熟食"
+                }
+            ],
+            "stock": 1001,
+            "price": "88.00",
+            "update_time": "2016-08-15 16:19:19",
+            "item_name": "平安富硒蒜酱200克8瓶，礼盒装（全国发货，包邮）",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1469431379277-6974878.jpg?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5545288904",
+                    "title": "一盒",
+                    "stock": "1001",
+                    "price": "88.00",
+                    "sku_merchant_code": "18001"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "2"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1469434888991-3662377.jpg?w=480&h=0",
+            "status": 1,
+            "item_desc": "民和百年品牌王尔力手抓250克-350克一袋，58元（全国发货，包邮）",
+            "itemid": "1912490705",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "60",
+                    "cate_id": 60104730,
+                    "cate_name": "干果特产"
+                }
+            ],
+            "stock": 1000,
+            "price": "58.00",
+            "update_time": "2016-08-09 10:55:25",
+            "item_name": "民和百年品牌王尔力手抓250克-350克一袋，58元（全国发货，包邮）",
+            "fx_fee_rate": "",
+            "thumb_imgs":"http://wd.geilicdn.com/vshop723500525-1469434888991-3662377.jpg?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5545432291",
+                    "title": "250克-350克",
+                    "stock": "1000",
+                    "price": "58.00",
+                    "sku_merchant_code": "18002"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs":"http://wd.geilicdn.com/vshop723500525-1469434391809-3330806.jpg?w=480&h=0",
+            "status": 1,
+            "item_desc": "循化线辣椒4斤40元（省内发货，包邮）",
+            "itemid": "1912483995",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "10",
+                    "cate_id": 55469432,
+                    "cate_name": "蔬菜瓜果"
+                }
+            ],
+            "stock": 984,
+            "price": "40.00",
+            "update_time": "2016-08-09 10:37:07",
+            "item_name": "循化线辣椒4斤40元（省内发货，包邮）",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1469434391809-3330806.jpg?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5545415758",
+                    "title": "4斤",
+                    "stock": "984",
+                    "price": "40.00",
+                    "sku_merchant_code": "13022"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "16"
+        },
+        {
+            "istop": 0,
+            "imgs":"http://wd.geilicdn.com/vshop723500525-1469431791369-2215414.jpg?w=480&h=0",
+            "status": 1,
+            "item_desc": "乐都双膜洋芋10斤25元（全国发货，包邮）",
+            "itemid": "1912436594",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "10",
+                    "cate_id": 55469432,
+                    "cate_name": "蔬菜瓜果"
+                }
+            ],
+            "stock": 1000,
+            "price": "25.00",
+            "update_time": "2016-08-09 10:36:13",
+            "item_name": "乐都双膜洋芋10斤25元（全国发货，包邮）",
+            "fx_fee_rate": "",
+            "thumb_imgs":"http://wd.geilicdn.com/vshop723500525-1469431791369-2215414.jpg?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5545275744",
+                    "title": "10斤",
+                    "stock": "1000",
+                    "price": "25.00",
+                    "sku_merchant_code": "16004"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs":"http://wd.geilicdn.com/vshop723500525-146943091154-2838913.jpg?w=480&h=0",
+            "status": 1,
+            "item_desc": "乐都长辣子5斤25元（省内发货，包邮）",
+            "itemid": "1912433976",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "10",
+                    "cate_id": 55469432,
+                    "cate_name": "蔬菜瓜果"
+                }
+            ],
+            "stock": 1000,
+            "price": "25.00",
+            "update_time": "2016-08-11 17:47:02",
+            "item_name": "乐都长辣子5斤25元（省内发货，包邮）",
+            "fx_fee_rate": "",
+            "thumb_imgs":"http://wd.geilicdn.com/vshop723500525-146943091154-2838913.jpg?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5545269041",
+                    "title": "5斤",
+                    "stock": "1000",
+                    "price": "25.00",
+                    "sku_merchant_code": "16003"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs":"http://wd.geilicdn.com/vshop723500525-1469067223280-5850059.jpg?w=480&h=0",
+            "status": 1,
+            "item_desc": "枸杞鸡蛋礼盒1700克，30枚（省内发货，限时递包邮）",
+            "itemid": "1909282274",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "0",
+                    "cate_id": 85359030,
+                    "cate_name": "限时特价"
+                }
+            ],
+            "stock": 983,
+            "price": "99.00",
+            "update_time": "2016-08-11 17:47:02",
+            "item_name": "枸杞鸡蛋礼盒1700克，30枚（省内发货，限时递包邮）",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1469067223280-5850059.jpg?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5537719097",
+                    "title": "盒",
+                    "stock": "983",
+                    "price": "99.00",
+                    "sku_merchant_code": "11031"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "24"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1469066874164-6975118.jpg?w=480&h=0",
+            "status": 1,
+            "item_desc": "新鲜枸杞2斤（省内发货，限时递包邮）",
+            "itemid": "1909280121",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "0",
+                    "cate_id": 85359030,
+                    "cate_name": "限时特价"
+                }
+            ],
+            "stock": 10000,
+            "price": "128.00",
+            "update_time": "2016-08-14 13:40:03",
+            "item_name": "新鲜枸杞2斤（省内发货，限时递包邮）",
+            "fx_fee_rate": "",
+            "thumb_imgs":"http://wd.geilicdn.com/vshop723500525-1469066874164-6975118.jpg?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5537720770",
+                    "title": "2斤",
+                    "stock": "10000",
+                    "price": "128.00",
+                    "sku_merchant_code": "11030"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "1"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459239133192-3956915.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁玉小熊提缎童巾-TDT-004\n",
+            "itemid": "1787956235",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 2000,
+            "price": "10.50",
+            "update_time": "2016-03-29 16:12:53",
+            "item_name": "洁玉小熊提缎童巾-TDT-004\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459239133192-3956915.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010610113",
+                    "title": "红色",
+                    "stock": "1000",
+                    "price": "10.50",
+                    "sku_merchant_code": "14177"
+                },
+                {
+                    "id": "5010610114",
+                    "title": "蓝色",
+                    "stock": "1000",
+                    "price": "10.50",
+                    "sku_merchant_code": "14178"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459238996444-5285754.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁玉定织素色多臂毛巾1268F\n",
+            "itemid": "1787953242",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 2000,
+            "price": "10.00",
+            "update_time": "2016-03-29 16:10:53",
+            "item_name": "洁玉定织素色多臂毛巾1268F\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459238996444-5285754.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010599895",
+                    "title": "蓝色",
+                    "stock": "1000",
+                    "price": "10.00",
+                    "sku_merchant_code": "14173"
+                },
+                {
+                    "id": "5010599896",
+                    "title": "米色",
+                    "stock": "1000",
+                    "price": "10.00",
+                    "sku_merchant_code": "14174"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs":"http://wd.geilicdn.com/vshop723500525-1459238835315-3569923.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁玉虚竹劲节方8098W(33X34cm)/条\n",
+            "itemid": "1787949417",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 3000,
+            "price": "9.50",
+            "update_time": "2016-03-29 16:08:19",
+            "item_name": "洁玉虚竹劲节方8098W(33X34cm)/条\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459238835315-3569923.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010588352",
+                    "title": "蓝色",
+                    "stock": "1000",
+                    "price": "9.50",
+                    "sku_merchant_code": "14168"
+                },
+                {
+                    "id": "5010588353",
+                    "title": "粉色",
+                    "stock": "1000",
+                    "price": "9.50",
+                    "sku_merchant_code": "14169"
+                },
+                {
+                    "id": "5010588354",
+                    "title": "绿色",
+                    "stock": "1000",
+                    "price": "9.50",
+                    "sku_merchant_code": "14170"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459238741149-7599681.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁丽雅简约休闲男袜5722\n",
+            "itemid": "1787946340",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 2000,
+            "price": "6.50",
+            "update_time": "2016-03-29 16:06:21",
+            "item_name": "洁丽雅简约休闲男袜5722\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459238741149-7599681.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010579380",
+                    "title": "白色",
+                    "stock": "1000",
+                    "price": "6.50",
+                    "sku_merchant_code": "14166"
+                },
+                {
+                    "id": "5010579381",
+                    "title": "黑色",
+                    "stock": "1000",
+                    "price": "6.50",
+                    "sku_merchant_code": "14167"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459238663640-7631742.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁丽雅简约休闲男袜5719\n",
+            "itemid": "1787944927",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 2000,
+            "price": "6.00",
+            "update_time": "2016-03-29 16:05:13",
+            "item_name": "洁丽雅简约休闲男袜5719\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459238663640-7631742.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010575743",
+                    "title": "白色",
+                    "stock": "1000",
+                    "price": "6.00",
+                    "sku_merchant_code": "14164"
+                },
+                {
+                    "id": "5010575744",
+                    "title": "黑色",
+                    "stock": "1000",
+                    "price": "6.00",
+                    "sku_merchant_code": "14165"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459238572193-5072227.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁丽雅横条柔软方巾6639\n",
+            "itemid": "1787942370",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 1000,
+            "price": "6.50",
+            "update_time": "2016-03-29 16:03:35",
+            "item_name": "洁丽雅横条柔软方巾6639\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459238572193-5072227.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010565500",
+                    "title": "条",
+                    "stock": "1000",
+                    "price": "6.50",
+                    "sku_merchant_code": "14162"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459237936936-1287159.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁丽雅纯棉强吸水特柔绣花方8778\n",
+            "itemid": "1787929737",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 3000,
+            "price": "11.50",
+            "update_time": "2016-04-25 10:27:28",
+            "item_name": "洁丽雅纯棉强吸水特柔绣花方8778\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459237936936-1287159.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010529686",
+                    "title": "粉色",
+                    "stock": "1000",
+                    "price": "11.50",
+                    "sku_merchant_code": "14149"
+                },
+                {
+                    "id": "5010529688",
+                    "title": "绿色",
+                    "stock": "1000",
+                    "price": "11.50",
+                    "sku_merchant_code": "14150"
+                },
+                {
+                    "id": "5010529690",
+                    "title": "蓝色",
+                    "stock": "1000",
+                    "price": "11.50",
+                    "sku_merchant_code": "14151"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459237754770-7913871.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁丽雅纯棉强吸水舒适面巾8125\n",
+            "itemid": "1787925658",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 2000,
+            "price": "21.00",
+            "update_time": "2016-03-29 15:50:03",
+            "item_name": "洁丽雅纯棉强吸水舒适面巾8125\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459237754770-7913871.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010518809",
+                    "title": "卡其色",
+                    "stock": "1000",
+                    "price": "21.00",
+                    "sku_merchant_code": "14143"
+                },
+                {
+                    "id": "5010518810",
+                    "title": "咖啡色",
+                    "stock": "1000",
+                    "price": "21.00",
+                    "sku_merchant_code": "14144"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459237696686-746133.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁丽雅纯棉强吸水超柔软方巾8010\n",
+            "itemid": "1787924409",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 2000,
+            "price": "12.00",
+            "update_time": "2016-03-29 15:49:03",
+            "item_name": "洁丽雅纯棉强吸水超柔软方巾8010\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459237696686-746133.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010515880",
+                    "title": "红色",
+                    "stock": "1000",
+                    "price": "12.00",
+                    "sku_merchant_code": "14141"
+                },
+                {
+                    "id": "5010515882",
+                    "title": "蓝色",
+                    "stock": "1000",
+                    "price": "12.00",
+                    "sku_merchant_code": "14142"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459237627529-4853374.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁丽雅莫代尔绣花拷边美容方6503\n",
+            "itemid": "1787923261",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 2000,
+            "price": "8.50",
+            "update_time": "2016-04-25 10:27:40",
+            "item_name": "洁丽雅莫代尔绣花拷边美容方6503\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459237627529-4853374.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010512915",
+                    "title": "黄色",
+                    "stock": "1000",
+                    "price": "8.50",
+                    "sku_merchant_code": "14139"
+                },
+                {
+                    "id": "5010512916",
+                    "title": "红色",
+                    "stock": "1000",
+                    "price": "8.50",
+                    "sku_merchant_code": "14140"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1459237446175-2806611.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "洁丽雅纯棉强吸水舒适方巾6246\n",
+            "itemid": "1787919297",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 2997,
+            "price": "6.20",
+            "update_time": "2016-08-02 20:55:21",
+            "item_name": "洁丽雅纯棉强吸水舒适方巾6246\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1459237446175-2806611.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "5010502950",
+                    "title": "黄色",
+                    "stock": "999",
+                    "price": "6.20",
+                    "sku_merchant_code": "14133"
+                },
+                {
+                    "id": "5010502951",
+                    "title": "橙色",
+                    "stock": "999",
+                    "price": "6.20",
+                    "sku_merchant_code": "14134"
+                },
+                {
+                    "id": "5010502952",
+                    "title": "蓝色",
+                    "stock": "999",
+                    "price": "6.20",
+                    "sku_merchant_code": "14135"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "3"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458893115602-652508.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "丁家宜晶纯透白泡沫洗面奶\n",
+            "itemid": "1783007709",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 998,
+            "price": "18.00",
+            "update_time": "2016-08-10 09:21:52",
+            "item_name": "丁家宜晶纯透白泡沫洗面奶\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458893115602-652508.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4989109676",
+                    "title": "瓶",
+                    "stock": "998",
+                    "price": "18.00",
+                    "sku_merchant_code": "14092"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "2"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458877517148-5514909.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "丁家宜美白保湿洁面乳100g\n",
+            "itemid": "1782691719",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 1000,
+            "price": "22.00",
+            "update_time": "2016-08-10 09:22:08",
+            "item_name": "丁家宜美白保湿洁面乳100g\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458877517148-5514909.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4987964021",
+                    "title": "瓶",
+                    "stock": "1000",
+                    "price": "22.00",
+                    "sku_merchant_code": "14089"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458874335357-2257490.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "妮维雅男士控油抗痘矿物洁炭面泥100G\n",
+            "itemid": "1782633761",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 1000,
+            "price": "35.10",
+            "update_time": "2016-08-10 09:19:11",
+            "item_name": "妮维雅男士控油抗痘矿物洁炭面泥100G\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458874335357-2257490.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4987823801",
+                    "title": "瓶",
+                    "stock": "1000",
+                    "price": "35.10",
+                    "sku_merchant_code": "14052"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458874250138-8872445.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "妮维雅男士控油抗黑头洁面晶露100g\n",
+            "itemid": "1782632786",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "70",
+                    "cate_id": 72467919,
+                    "cate_name": "生活用品"
+                }
+            ],
+            "stock": 999,
+            "price": "35.10",
+            "update_time": "2016-08-10 09:19:08",
+            "item_name": "妮维雅男士控油抗黑头洁面晶露100g\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458874250138-8872445.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4987820855",
+                    "title": "瓶",
+                    "stock": "999",
+                    "price": "35.10",
+                    "sku_merchant_code": "14051"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "1"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458810136746-6521020.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "谷迪12生肖泡菜味脆面80g         \n",
+            "itemid": "1781779073",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "50",
+                    "cate_id": 86380389,
+                    "cate_name": "休闲零食"
+                }
+            ],
+            "stock": 1000,
+            "price": "10.60",
+            "update_time": "2016-08-09 11:00:35",
+            "item_name": "谷迪12生肖泡菜味脆面80g         \n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458810136746-6521020.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4984375094",
+                    "title": "袋",
+                    "stock": "1000",
+                    "price": "10.60",
+                    "sku_merchant_code": "14028"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458790271225-1015863.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "运得牌水蜜桃味含气饮料350ml\n",
+            "itemid": "1781333762",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "40",
+                    "cate_id": 66114091,
+                    "cate_name": "冲调饮品"
+                }
+            ],
+            "stock": 1000,
+            "price": "10.40",
+            "update_time": "2016-08-09 10:46:03",
+            "item_name": "运得牌水蜜桃味含气饮料350ml\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458790271225-1015863.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4982742935",
+                    "title": "瓶",
+                    "stock": "1000",
+                    "price": "10.40",
+                    "sku_merchant_code": "14040"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458790201666-6500406.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "运得牌草莓味含气饮料350ml\n",
+            "itemid": "1781332729",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "40",
+                    "cate_id": 66114091,
+                    "cate_name": "冲调饮品"
+                }
+            ],
+            "stock": 1000,
+            "price": "10.40",
+            "update_time": "2016-04-07 10:28:01",
+            "item_name": "运得牌草莓味含气饮料350ml\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458790201666-6500406.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4982739472",
+                    "title": "瓶",
+                    "stock": "1000",
+                    "price": "10.40",
+                    "sku_merchant_code": "14039"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458790167978-6450943.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "运得牌蓝莓味含气饮料350ml\n",
+            "itemid": "1781331448",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "40",
+                    "cate_id": 66114091,
+                    "cate_name": "冲调饮品"
+                }
+            ],
+            "stock": 1000,
+            "price": "10.40",
+            "update_time": "2016-04-07 10:28:12",
+            "item_name": "运得牌蓝莓味含气饮料350ml\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458790167978-6450943.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4982735104",
+                    "title": "瓶",
+                    "stock": "1000",
+                    "price": "10.40",
+                    "sku_merchant_code": "14038"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458790130387-6083963.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "运得牌荔枝味含气饮料350ml\n",
+            "itemid": "1781330717",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "40",
+                    "cate_id": 66114091,
+                    "cate_name": "冲调饮品"
+                }
+            ],
+            "stock": 578,
+            "price": "10.40",
+            "update_time": "2016-04-07 10:28:21",
+            "item_name": "运得牌荔枝味含气饮料350ml\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458790130387-6083963.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4982732373",
+                    "title": "瓶",
+                    "stock": "578",
+                    "price": "10.40",
+                    "sku_merchant_code": "14037"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458790085948-257693.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "爱士堡小麦黑啤500ml\n",
+            "itemid": "1781329973",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "40",
+                    "cate_id": 66114091,
+                    "cate_name": "冲调饮品"
+                }
+            ],
+            "stock": 1000,
+            "price": "21.40",
+            "update_time": "2016-04-07 10:28:34",
+            "item_name": "爱士堡小麦黑啤500ml\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458790085948-257693.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4982729536",
+                    "title": "瓶",
+                    "stock": "1000",
+                    "price": "21.40",
+                    "sku_merchant_code": "14036"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        },
+        {
+            "istop": 0,
+            "imgs": "http://wd.geilicdn.com/vshop723500525-1458790040248-2156186.png?w=480&h=0",
+            "status": 1,
+            "item_desc": "爱士堡小麦啤酒500ml\n",
+            "itemid": "1781329020",
+            "merchant_code": "",
+            "cates": [
+                {
+                    "sort_num": "40",
+                    "cate_id": 66114091,
+                    "cate_name": "冲调饮品"
+                }
+            ],
+            "stock": 1000,
+            "price": "21.40",
+            "update_time": "2016-04-07 10:28:44",
+            "item_name": "爱士堡小麦啤酒500ml\n",
+            "fx_fee_rate": "",
+            "thumb_imgs": "http://wd.geilicdn.com/vshop723500525-1458790040248-2156186.png?w=110&h=110&cp=1",
+            "skus": [
+                {
+                    "id": "4982726147",
+                    "title": "瓶",
+                    "stock": "1000",
+                    "price": "21.40",
+                    "sku_merchant_code": "14035"
+                }
+            ],
+            "seller_id": "723500525",
+            "sold": "0"
+        }
+     ]

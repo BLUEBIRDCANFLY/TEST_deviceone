@@ -1,0 +1,30 @@
+{
+	"RootView":{
+		"x":"0",
+		"width":"1083",
+		"y":"0",
+		"id":"do_ALayout_root",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"width":"1078",
+				"id":"do_ALayout_main",
+				"type":"do_ALayout",
+				"views":[
+					{
+						"isHeaderVisible":"true",
+						"isFooterVisible":"true",
+						"templates":"source://view/business/merchantRowTemplate0.ui",
+						"width":"1080",
+						"id":"do_ListView_merchant",
+						"type":"do_ListView",
+						"selectedColor":"ECECECFF",
+						"height":"1452"
+					}
+				],
+				"height":"1476"
+			}
+		],
+		"height":"1778"
+	}
+}
