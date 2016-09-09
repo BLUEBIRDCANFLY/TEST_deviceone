@@ -18,22 +18,22 @@
 			},
 			{
 				"x":"264",
-				"width":"798",
-				"y":"36",
-				"fontSize":"32",
+				"width":"796",
+				"y":"22",
+				"fontSize":"40",
 				"id":"do_Label_title",
 				"type":"do_Label",
-				"fontColor":"400040FF",
-				"height":"56"
+				"fontColor":"9BBDBFFF",
+				"height":"-1"
 			},
 			{
 				"bgColor":"8080C0FF",
-				"width":"1086",
-				"x":"-4",
-				"y":"241",
+				"width":"1102",
+				"x":"-20",
+				"y":"243",
 				"id":"do_ALayout_line",
 				"type":"do_ALayout",
-				"height":"8"
+				"height":"2"
 			},
 			{
 				"x":"264",
@@ -45,11 +45,11 @@
 					{
 						"width":"796",
 						"maxLines":"2",
-						"fontSize":"32",
+						"fontSize":"47",
 						"id":"do_Label_desc",
 						"type":"do_Label",
-						"fontColor":"2C6D12FF",
-						"height":"55"
+						"fontColor":"74EA4DFF",
+						"height":"69"
 					}
 				],
 				"height":"72"

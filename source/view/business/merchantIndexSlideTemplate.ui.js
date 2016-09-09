@@ -10,13 +10,15 @@ var do_ListView_merchant=ui("do_ListView_merchant");
 var do_ALayout_main=ui("do_ALayout_main");
 //定义do_ListView_merchant的数据model
 var listdataMerchant = mm("do_ListData");
+var do_DataCache_state = sm("do_DataCache");
 //在do_ALayout_root上动态添加子视图(用于等待数据装载的过程)
 do_ALayout_root.add("loadingUI", "source://view/loadingUI.ui", 0, 0);
 var loadingUI = ui("loadingUI");
 //定义变量
 var type_id;
 var type_name;
-var page,pageNum;
+var page,pageNum,uuid;
+var userdata;
 //给do_ListView_news绑定数据
 do_ListView_merchant.bindItems(listdataMerchant);
 //设置数据绑定的映射关系
@@ -26,6 +28,7 @@ root.setMapping({
 });
 //初始化隐藏遮盖
 loadingUI.visible = false;
+loaduser();
 
 //刷新数据
 function refreshAllData(){
@@ -34,19 +37,18 @@ function refreshAllData(){
 	http.method = "POST";  // GET | POST
 	http.timeout = 30000; // 超时时间 : 单位 毫秒
 	http.contentType = "application/x-www-form-urlencoded"; // Content-Type
-//	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+pageNum; // 请求的 URL
-	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+"&pageNum="+page;
-	http.body = JSON.stringify({cata_id:type_id,pageNum:page}); 
+	deviceone.print(JSON.stringify(userdata),"userdata111");
+	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+"&pageNum="+page+"&uuid="+uuid;
 	http.on("success", function(data) {
 		//恢复do_ListView_news的headerview和footerview状态
 		do_ListView_merchant.rebound();
 		listdataMerchant.removeAll();
-		//deviceone.print(JSON.stringify(data.getRange(0)));
 		listdataMerchant.addData(data);
 //		deviceone.print(JSON.stringify(listdataMerchant.getRange(0)));
 	    do_ListView_merchant.refreshItems();
 	    //每次刷新的数据，都在本地缓存起来
 	    do_DataCache_Mer.saveData(type_id, data);
+		deviceone.print("refreshAll","refreshAll");
 	    //去掉遮盖
 	    loadingUI.visible = false;		
 	});
@@ -66,13 +68,9 @@ function getNextPageData(){
 	http.method = "POST";  // GET | POST
 	http.timeout = 30000; // 超时时间 : 单位 毫秒
 	http.contentType = "application/x-www-form-urlencoded"; // Content-Type
-	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+"&pageNum="+page;
-	http.body = JSON.stringify({cata_id:type_id, pageNum:page}); 
+	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+"&pageNum="+page+"&uuid="+uuid;
+//	http.body = JSON.stringify({cata_id:type_id, pageNum:page}); 
 	http.on("success", function(data) {
-	    //if (!data ){
-//		if (!data && typeof(data)!="undefined" && data!=0){
-//		if(data === ""){
-//		if(data === ""||typeof(data)!="undefined" && data!=0&&!data){
 		if(data == 0){
 	    	do_Notification.toast("更多商品，敬请关注！");
 			do_ListView_merchant.rebound();
@@ -89,10 +87,19 @@ function getNextPageData(){
 	});
 	http.request();
 }
+//刷新用户信息
+function loaduser(){
+	userdata=do_DataCache_state.loadData(123);
+	if (userdata==undefined||userdata == "" ||userdata.length == 0){
+		uuid="";
+	}else {
+		uuid=userdata.uuid;
+	}
+	deviceone.print(JSON.stringify(userdata),"userdata");
+	};
 //订阅每次绑定数据后的事件
 root.on("dataRefreshed", function(){
 	type_id = do_ALayout_root.tag;
-	//deviceone.print(type_id);
 	type_name = do_ALayout_main.tag;	
 	//先尝试加载本地数据
 	var data = do_DataCache_Mer.loadData(type_id);
@@ -101,6 +108,7 @@ root.on("dataRefreshed", function(){
 		listdataMerchant.removeAll();
 		listdataMerchant.addData(data);
 	    do_ListView_merchant.refreshItems();
+		deviceone.print("loadloacl","local");
 	}
 	else{
 		loadingUI.visible = true;		
@@ -112,7 +120,7 @@ root.on("dataRefreshed", function(){
 //下拉列表，刷新数据
 do_ListView_merchant.on("pull", function(data){
 	//其中state=0：表示开始下拉headerview，；state=1：表示下拉headerview超过headerview的高度，触发一次这个事件；state=2：下拉超过一定值，触发state=1事件后，松手会触发一次这个事件，数据加载完后需要调用rebound方法让header复位
-	if (data.state == 2){
+	if (data.state == 1){
 		refreshAllData();
 	}
 });
@@ -120,18 +128,23 @@ do_ListView_merchant.on("pull", function(data){
 //上拉列表，翻页数据
 do_ListView_merchant.on("push", function(data){
 	//其中state=0：表示开始上推headerview，；state=1：表示上推headerview超过headerview的高度，触发一次这个事件；state=2：上推超过一定值，触发state=1事件后，松手会触发一次这个事件，数据加载完后需要调用rebound方法让header复位
-	if (data.state == 2){		
+	if (data.state == 1){		
 		getNextPageData();
 	}
 });
-
+//从商品界面返回主界面刷新用户数据和商品FAVORITE状态
+do_Page.on("result",function(data){
+	loaduser();
+	refreshAllData();
+});
 //点击一条产品后
 do_ListView_merchant.on("touch", function(data){
 	var onMerchant=listdataMerchant.getOne(data);
+	deviceone.print(JSON.stringify(onMerchant.fav_flag),"Merchant");
 	do_App.openPage({
 		source:"source://view/business/merchantDetail.ui", 
 		animationType:"push_r2l", //动画效果：从右向左推出
 		statusBarState:"transparent",
-		data:JSON.stringify({title:onMerchant.item_name, url:onMerchant.imgs}) //传递页面之间的参数
+		data:JSON.stringify({title:onMerchant.item_name, url:onMerchant.imgs,merchantid:onMerchant.itemid,price:onMerchant.price,standard:onMerchant.pkg,favo:onMerchant.fav_flag}) //传递页面之间的参数
 	});
 });

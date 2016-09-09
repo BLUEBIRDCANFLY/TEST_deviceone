@@ -36,16 +36,20 @@ function commitData(){
 	http.method = "POST";  // GET | POST
 	http.timeout = 30000; // 超时时间 : 单位 毫秒
 	http.contentType = "application/x-www-form-urlencoded"; // Content-Type
-//	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+pageNum; // 请求的 URL
-//	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+"&pageNum="+page;
-	http.body = JSON.stringify({user_id:do_TextField_username.text,passwd:do_TextField_passwd1.text,phonenum:do_TextField_phone.text}); 
+	http.url = "http://220.167.137.10/vdian/app/user_reg.php?user_id="+do_TextField_username.text+"&passwd="+do_TextField_passwd1.text+"&phonenum="+do_TextField_phone.text;
 	http.on("success", function(data) {
-		if (data.flag== 0){
-			do_Notification.toast("注册未成功，请稍后再试！");
+		if (data.success== 0){
+			do_Notification.toast(data.msg);
 		}
 		else {
-			do_DataCache_state.saveData(user_id, data);
-			do_Notification.toast("注册成功");
+			do_DataCache_state.saveData(124, data);
+			do_Notification.toast(data.msg);
+			do_App.closePage();
+			do_App.openPage({
+				source:"source://view/feedback/login/main.ui", 
+				animationType:"push_r2l", //动画效果：从右向左推出
+				statusBarState:"transparent",
+			});
 		}
 	});
 	http.on("fail", function(data) {

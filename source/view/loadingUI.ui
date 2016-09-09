@@ -2,7 +2,7 @@
 	"RootView":{
 		"bgColor":"00000099",
 		"x":"0",
-		"width":"750",
+		"width":"1078",
 		"y":"0",
 		"id":"do_ALayout",
 		"type":"do_ALayout",
@@ -19,6 +19,6 @@
 				"fontColor":"FFFFFFFF"
 			}
 		],
-		"height":"1334"
+		"height":"1920"
 	}
 }

@@ -32,20 +32,18 @@ function commitData(){
 	http.method = "POST";  // GET | POST
 	http.timeout = 30000; // 超时时间 : 单位 毫秒
 	http.contentType = "application/x-www-form-urlencoded"; // Content-Type
-//	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+pageNum; // 请求的 URL
-	http.url = "http://220.167.137.10/vdian/action/goods/APP_user_login.php?password="+do_TextField_passwd.text;
-//	http.body = JSON.stringify({user_id:do_TextField_username,passwd:do_TextField_passwd}); 
-	http.body = JSON.stringify({password:do_TextField_passwd.text});
-	var data1= http.body;
-//	deviceone.print(JSON.stringify(data1));
+//	http.url = "http://220.167.137.10/vdian/action/goods/APP_user_login.php?password="+do_TextField_passwd.text;
+	user_id=do_TextField_username.text;
+	passwd=do_TextField_passwd.text;
+	http.url = encodeURI("http://220.167.137.10/vdian/app/user_login.php?user_id="+user_id+"&passwd="+passwd);
 	http.on("success", function(data) {
 		if (data.success== 0){
-//			deviceone.print(JSON.stringify(data));
 			do_Notification.toast("登录未成功，请稍后再试！");
 		}
 		else {
-			do_DataCache_state.saveData(123, data);
-			userinfo = JSON.stringify(data);
+			deviceone.print(JSON.stringify(data),"return");
+			do_DataCache_state.saveData(123, data.obj);
+			userinfo = JSON.stringify(data.obj);
 //			deviceone.print(userinfo);
 			do_Notification.toast("登录成功");
 			do_App.closePage(userinfo);

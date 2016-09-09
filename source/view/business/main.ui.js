@@ -129,4 +129,4 @@ do_Page.on("selectOneTab", function(data){
 do_Page.fire("refreshmerchant");
 do_SlideView_merchant.on("indexChanged", function(index) {
 	do_Page.fire("selectOneTab", {name:jsonSlides[index].cata_name});
-})
+});

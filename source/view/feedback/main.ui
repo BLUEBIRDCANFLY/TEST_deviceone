@@ -49,17 +49,7 @@
 						"y":"568",
 						"id":"do_ALayout_title",
 						"type":"do_ALayout",
-						"views":[
-							{
-								"bgColor":"546985FF",
-								"x":"-6",
-								"width":"1080",
-								"y":"-4",
-								"id":"do_ScrollView_title",
-								"type":"do_ScrollView",
-								"height":"1162"
-							}
-						],
+						"views":[],
 						"height":"1158"
 					},
 					{

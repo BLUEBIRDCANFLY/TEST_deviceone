@@ -65,7 +65,7 @@
 				"views":[
 					{
 						"x":"334",
-						"width":"402",
+						"width":"388",
 						"y":"32",
 						"id":"do_ALayout_cart",
 						"type":"do_ALayout",
@@ -74,13 +74,21 @@
 								"border":"00000000,4,[50,50,50,50]",
 								"bgColor":"1B741FFF",
 								"textAlign":"center",
-								"width":"382",
-								"x":"8",
+								"x":"104",
+								"width":"270",
+								"y":"14",
 								"fontSize":"47",
 								"id":"do_Label_cart",
-								"text":"    加入购物车",
+								"text":"加入购物车",
 								"type":"do_Label",
-								"height":"110"
+								"height":"96"
+							},
+							{
+								"y":"2",
+								"id":"do_ImageView_4",
+								"source":"source://image/CART.png",
+								"type":"do_ImageView",
+								"height":"108"
 							},
 							{
 								"border":"00000000,4,[25,25,25,25]",
@@ -94,14 +102,6 @@
 								"text":"17",
 								"type":"do_Label",
 								"height":"58"
-							},
-							{
-								"x":"10",
-								"y":"4",
-								"id":"do_ImageView_4",
-								"source":"source://image/CART.png",
-								"type":"do_ImageView",
-								"height":"108"
 							}
 						],
 						"height":"112"
@@ -115,18 +115,18 @@
 						"views":[
 							{
 								"border":"00000000,4,[50,50,50,50]",
-								"bgColor":"AD182FFF",
+								"bgColor":"337AF0FF",
 								"textAlign":"center",
-								"x":"22",
-								"width":"342",
+								"x":"108",
+								"width":"256",
 								"fontSize":"47",
 								"id":"do_Label_pay",
-								"text":"    立即购买",
+								"text":"立即购买",
 								"type":"do_Label",
 								"height":"102"
 							},
 							{
-								"x":"34",
+								"x":"14",
 								"width":"94",
 								"y":"8",
 								"id":"do_ImageView_7",
@@ -139,36 +139,44 @@
 					},
 					{
 						"x":"4",
-						"width":"340",
+						"width":"328",
 						"y":"38",
 						"id":"do_ALayout_fav",
 						"type":"do_ALayout",
 						"views":[
 							{
-								"border":"000000FF,4,[50,50,50,50]",
-								"textAlign":"center",
-								"x":"-2",
-								"width":"340",
-								"fontSize":"47",
-								"id":"do_Label_fav",
-								"text":"      加入收藏",
-								"type":"do_Label",
-								"height":"106"
-							},
-							{
-								"x":"6",
+								"x":"8",
 								"width":"110",
-								"y":"6",
+								"y":"2",
 								"id":"do_ImageView_fav",
 								"source":"source://image/fav_no.png",
 								"type":"do_ImageView",
 								"height":"102"
+							},
+							{
+								"border":"00000000,4,[50,50,50,50]",
+								"textAlign":"center",
+								"x":"118",
+								"width":"208",
+								"fontSize":"47",
+								"id":"do_Label_fav",
+								"text":"加入收藏",
+								"type":"do_Label",
+								"height":"106"
 							}
 						],
 						"height":"106"
 					}
 				],
 				"height":"168"
+			},
+			{
+				"x":"4",
+				"width":"1074",
+				"y":"1080",
+				"id":"do_ListView_merchant",
+				"type":"do_ListView",
+				"height":"672"
 			},
 			{
 				"bgColor":"A3BEDAFF",
@@ -180,93 +188,34 @@
 				"height":"12"
 			},
 			{
-				"x":"2",
-				"width":"1076",
-				"y":"1094",
-				"id":"do_ScrollView_merchant",
-				"type":"do_ScrollView",
-				"views":[
-					{
-						"padding":"10,10,10,10",
-						"x":"-2",
-						"width":"1078",
-						"y":"2",
-						"id":"do_LinearLayout_1",
-						"type":"do_LinearLayout",
-						"views":[
-							{
-								"x":"10",
-								"width":"1046",
-								"y":"10",
-								"id":"do_ALayout_2",
-								"type":"do_ALayout",
-								"views":[
-									{
-										"textAlign":"center",
-										"width":"144",
-										"x":"26",
-										"y":"40",
-										"fontSize":"47",
-										"id":"do_Label_jiage",
-										"text":"价格：",
-										"type":"do_Label"
-									},
-									{
-										"width":"302",
-										"x":"204",
-										"y":"34",
-										"fontSize":"56",
-										"id":"do_Label_price",
-										"type":"do_Label",
-										"fontColor":"FF0000FF"
-									},
-									{
-										"textAlign":"center",
-										"width":"146",
-										"x":"34",
-										"y":"158",
-										"fontSize":"47",
-										"id":"do_Label_standard",
-										"text":"规格：",
-										"type":"do_Label",
-										"height":"78"
-									},
-									{
-										"width":"308",
-										"x":"206",
-										"y":"144",
-										"fontSize":"56",
-										"id":"do_Label_stand",
-										"type":"do_Label"
-									}
-								],
-								"height":"318"
-							},
-							{
-								"bgColor":"C0C0C0FF",
-								"width":"1078",
-								"x":"10",
-								"y":"328",
-								"id":"do_Label_line2",
-								"type":"do_Label",
-								"height":"3"
-							},
-							{
-								"maxHeight":"10000",
-								"width":"1066",
-								"x":"10",
-								"maxLines":"500",
-								"y":"331",
-								"fontSize":"56",
-								"id":"do_Label_6",
-								"type":"do_Label",
-								"height":"-1"
-							}
-						],
-						"height":"-1"
-					}
-				],
-				"height":"626"
+				"x":"178",
+				"width":"240",
+				"y":"1140",
+				"fontSize":"56",
+				"id":"do_Label_price",
+				"type":"do_Label",
+				"fontColor":"FF0000FF"
+			},
+			{
+				"width":"122",
+				"x":"44",
+				"y":"1154",
+				"fontSize":"46",
+				"id":"do_TextBox_price",
+				"text":"价格:",
+				"type":"do_TextBox",
+				"fontStyle":"bold",
+				"height":"58"
+			},
+			{
+				"x":"18",
+				"width":"1054",
+				"y":"1272",
+				"maxLines":"100",
+				"fontSize":"56",
+				"id":"do_Label_4",
+				"type":"do_Label",
+				"height":"476"
 			}
 		],
 		"height":"1918"
