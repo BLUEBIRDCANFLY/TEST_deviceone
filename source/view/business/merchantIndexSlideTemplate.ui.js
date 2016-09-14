@@ -48,7 +48,7 @@ function refreshAllData(){
 	    do_ListView_merchant.refreshItems();
 	    //每次刷新的数据，都在本地缓存起来
 	    do_DataCache_Mer.saveData(type_id, data);
-		deviceone.print("refreshAll","refreshAll");
+//		deviceone.print("refreshAll","refreshAll");
 	    //去掉遮盖
 	    loadingUI.visible = false;		
 	});
@@ -108,7 +108,7 @@ root.on("dataRefreshed", function(){
 		listdataMerchant.removeAll();
 		listdataMerchant.addData(data);
 	    do_ListView_merchant.refreshItems();
-		deviceone.print("loadloacl","local");
+	//	deviceone.print("loadloacl","local");
 	}
 	else{
 		loadingUI.visible = true;		

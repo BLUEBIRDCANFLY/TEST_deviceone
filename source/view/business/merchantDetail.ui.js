@@ -29,12 +29,12 @@ var data= do_DataCache_state.loadData(123);
 user_id=data.uuid;
 //订阅android系统返回键的事件：关闭当前页面
 do_Page.on("back", function(){
-	do_App.closePage(user_id);
+	do_App.closePage(data);
 });
 
 //关闭当前页面
 do_ALayout_back.on("touch", function(){
-	do_App.closePage(user_id);
+	do_App.closePage(data);
 });
 //页面装载完成后，开始初始化工作
 do_Page.on("loaded", function(){
