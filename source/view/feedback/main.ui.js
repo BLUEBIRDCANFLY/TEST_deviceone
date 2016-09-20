@@ -24,6 +24,7 @@ var do_ALayout_login=ui("do_ALayout_login");
 var do_ALayout_reg=ui("do_ALayout_reg");
 var do_ALayout_user = ui("do_ALayout_user");
 var do_Label_user = ui("do_Label_user");
+var do_ALayout_userfav = ui("do_ALayout_userfav");
 
 do_Label_user.visible = false;
 do_ALayout_login.on("touch",function(){
@@ -46,13 +47,13 @@ do_Page.on("refreshuser", function(){
 //	do_DataCache_state.removeAll();
 	var data= do_DataCache_state.loadData(123);
 	if (data==undefined||data == "" ||data.length == 0){
-		deviceone.print(JSON.stringify(data),"loadfail");
+//		deviceone.print(JSON.stringify(data),"loadfail");
 		do_Label_log.visible = true;
 		do_Label_reg.visible = true;
 		do_Label_user.visible = false;
 	}
 	else{		
-		deviceone.print(JSON.stringify(data),"second");
+//		deviceone.print(JSON.stringify(data),"second");
 		do_Label_log.visible = false;
 		do_ALayout_login.enabled=false;
 		do_Label_reg.visible = false;
@@ -66,8 +67,8 @@ do_Page.on("result",function(data){
 //	if (data == "" ||datauser.length == 0){
 	if (data == undefined ||data == "" ||data.length == 0){
 		do_Page.fire("refreshuser");//如果RESULT为空，这会失去登录信息，这样改后好象暂时解决了，但不知道后续有没有问题。
-		deviceone.print(JSON.stringify(data.uuid),"resultfail");
-		deviceone.print(JSON.stringify(data.username),"resultNAMEfail");
+//		deviceone.print(JSON.stringify(data.uuid),"resultfail");
+//		deviceone.print(JSON.stringify(data.username),"resultNAMEfail");
 	}
 	else{
 		deviceone.print(JSON.stringify(data.username),"first result");
@@ -80,3 +81,11 @@ do_Page.on("result",function(data){
 	}
 });
 do_Page.fire("refreshuser");
+
+do_ALayout_userfav.on("touch",function(){
+	do_App.openPage( {
+		source:"source://view/business/merchantFav.ui",
+		statusBarState:"transparent",
+		animationType:"push_r21"
+	});
+});

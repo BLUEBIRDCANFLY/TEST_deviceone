@@ -14,30 +14,33 @@
 				"type":"do_ALayout",
 				"views":[
 					{
+						"border":"00000000,2,[175,175,175,175]",
 						"bgColor":"485A79FF",
-						"width":"356",
+						"width":"350",
 						"x":"356",
 						"y":"50",
 						"id":"do_ALayout_userimg",
 						"type":"do_ALayout",
+						"isStretch":"false",
 						"views":[
 							{
+								"border":"00000000,2,[170,170,170,170]",
 								"width":"350",
 								"x":"-2",
 								"y":"4",
 								"id":"do_ImageView_user",
-								"source":"source://image/personal.png",
+								"source":"source://image/dog.jpg",
 								"type":"do_ImageView",
-								"height":"334"
+								"height":"350"
 							}
 						],
-						"height":"342"
+						"height":"350"
 					},
 					{
 						"bgColor":"888888FF",
-						"width":"1080",
-						"x":"14",
-						"y":"564",
+						"width":"1108",
+						"x":"-14",
+						"y":"562",
 						"id":"do_ALayout_line",
 						"type":"do_ALayout",
 						"height":"8"
@@ -49,7 +52,56 @@
 						"y":"568",
 						"id":"do_ALayout_title",
 						"type":"do_ALayout",
-						"views":[],
+						"views":[
+							{
+								"bgColor":"485A79FF",
+								"x":"-4",
+								"width":"1080",
+								"y":"2",
+								"id":"do_ScrollView_usertab",
+								"type":"do_ScrollView",
+								"views":[
+									{
+										"x":"2",
+										"width":"1078",
+										"y":"2",
+										"id":"do_ALayout_userfav",
+										"type":"do_ALayout",
+										"views":[
+											{
+												"x":"2",
+												"width":"866",
+												"fontSize":"56",
+												"id":"do_Label_fav",
+												"text":"我的收藏",
+												"type":"do_Label",
+												"height":"190"
+											},
+											{
+												"x":"906",
+												"width":"132",
+												"y":"38",
+												"id":"do_ImageView_front",
+												"source":"source://image/front.png",
+												"type":"do_ImageView",
+												"height":"120"
+											},
+											{
+												"bgColor":"C0C0C0FF",
+												"x":"-2",
+												"width":"1088",
+												"y":"180",
+												"id":"do_Label_line",
+												"type":"do_Label",
+												"height":"2"
+											}
+										],
+										"height":"190"
+									}
+								],
+								"height":"1152"
+							}
+						],
 						"height":"1158"
 					},
 					{

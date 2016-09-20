@@ -37,7 +37,6 @@ function refreshAllData(){
 	http.method = "POST";  // GET | POST
 	http.timeout = 30000; // 超时时间 : 单位 毫秒
 	http.contentType = "application/x-www-form-urlencoded"; // Content-Type
-	deviceone.print(JSON.stringify(userdata),"userdata111");
 	http.url = "http://220.167.137.10/vdian/action/goods/APP_Get_items.php?cata_id="+type_id+"&pageNum="+page+"&uuid="+uuid;
 	http.on("success", function(data) {
 		//恢复do_ListView_news的headerview和footerview状态
@@ -95,7 +94,7 @@ function loaduser(){
 	}else {
 		uuid=userdata.uuid;
 	}
-	deviceone.print(JSON.stringify(userdata),"userdata");
+//	deviceone.print(JSON.stringify(userdata),"userdata");
 	};
 //订阅每次绑定数据后的事件
 root.on("dataRefreshed", function(){

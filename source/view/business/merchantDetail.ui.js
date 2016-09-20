@@ -24,17 +24,17 @@ do_ALayout_root.add("loadingUI", "source://view/loadingUI.ui", 0, 0);
 var loadingUI = ui("loadingUI");
 loadingUI.visible = false;
 //变量
-var favorite,user_id,item_id;
+var favorite,favochange,user_id,item_id;
 var data= do_DataCache_state.loadData(123);
 user_id=data.uuid;
 //订阅android系统返回键的事件：关闭当前页面
 do_Page.on("back", function(){
-	do_App.closePage(data);
+	do_App.closePage();
 });
 
 //关闭当前页面
 do_ALayout_back.on("touch", function(){
-	do_App.closePage(data);
+	do_App.closePage();
 });
 //页面装载完成后，开始初始化工作
 do_Page.on("loaded", function(){
@@ -67,11 +67,13 @@ do_ALayout_fav.on("touch", function(){
 	}else {if (favorite=="1"){
 		favorite=0;
 		do_Page.fire(updatefavo(favorite));
+		favochange=favorite;
 		do_ImageView_fav.source="source://image/fav_no.png";
 	}
 	else{
 		favorite=1;
 		do_Page.fire(updatefavo(favorite));
+		favochange=favorite;
 		do_ImageView_fav.source="source://image/fav_yes.png";
 	}
 	}
