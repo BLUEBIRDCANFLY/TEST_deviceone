@@ -2,10 +2,13 @@
   "ID": "do_TextField",
   "IsContainer": "0",
   "Type": "UI",
+  "UIType": "View",
   "Name": "单行文本编辑框",
   "Version": "Internal",
   "Description": "通常只允许输入一行",
   "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_TextField/单行文本框.jpg",
+  "BBS": "",
+  "Keyword": "其它类型",
   "IOS": {
     "Support": 1,
     "MinVersion": "7.0"

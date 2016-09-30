@@ -8,7 +8,7 @@
   "Icon": "",
   "IOS": {
     "Support": 1,
-    "MinVersion": "7"
+    "MinVersion": "7.0"
   },
   "Android": {
     "Support": 1,

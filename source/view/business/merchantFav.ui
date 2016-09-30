@@ -19,14 +19,20 @@
 						"type":"do_ScrollView",
 						"views":[
 							{
-								"templates":"source://view/business/cell.ui",
-								"x":"2",
-								"width":"1068",
-								"y":"8",
-								"id":"do_GridView_fav",
-								"type":"do_GridView",
-								"numColumns":"3",
-								"height":"-1"
+								"width":"1074",
+								"id":"do_ALayout_1",
+								"type":"do_ALayout",
+								"views":[
+									{
+										"templates":"source://view/business/cell.ui",
+										"width":"1068",
+										"id":"do_GridView_fav",
+										"type":"do_GridView",
+										"numColumns":"3",
+										"height":"1649"
+									}
+								],
+								"height":"1650"
 							}
 						],
 						"height":"-1"

@@ -2,10 +2,13 @@
   "ID": "do_ImageBrowser",
   "IsContainer": "0",
   "Type": "SM",
+  "UIType": "Layout",
   "Name": "图片预览",
   "Version": "Internal",
   "Description": "这个组件用于浏览大量网络或本地图片，图片路径可以http://链接或本地data://、source://、initdata://目录，支持放大后缩放原图，多图片支持左右滑动预览，进入浏览界面单击一下屏幕退出",
   "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_ImageBrowser/图片预览.jpg",
+  "BBS": "",
+  "Keyword": "图片处理",
   "IOS": {
     "Support": 1,
     "MinVersion": "7.0"
@@ -29,11 +32,11 @@
   "Properties": [],
   "Events": [
     {
-      "ID": "longTouch",
-      "Description": "长按预览图片触发",
+      "ID": "result",
+      "Description": "点击关闭预览时触发",
       "ReturnType": "Node",
       "ReturnType_JavaScript": "Node",
-      "ReturnDesc": "当前图片的index值和图片的source，如['index':'','source':'']"
+      "ReturnDesc": "当前预览图片的索引{'index':''}"
     }
   ],
   "syncMethodes": [

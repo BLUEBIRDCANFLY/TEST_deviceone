@@ -2,10 +2,13 @@
   "ID": "do_ListView",
   "IsContainer": "0",
   "Type": "UI",
+  "UIType": "Container",
   "Name": "List视图",
   "Version": "Internal",
   "Description": "List视图是最常用的UI组件，由很多个Cell组成。它可以通过bind一个ListData来构造视图的数据Model，修改数据来更新视图。android平台不支持在cell中放TextFiled、TextBox组件",
   "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_ListView/list列表视图.jpg",
+  "BBS": "",
+  "Keyword": "其它类型",
   "IOS": {
     "Support": 1,
     "MinVersion": "7.0"

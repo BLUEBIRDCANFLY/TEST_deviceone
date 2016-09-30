@@ -2,10 +2,13 @@
   "ID": "do_GridView",
   "IsContainer": "0",
   "Type": "UI",
-  "Name": "Grid视图",
+  "UIType": "Container",
+  "Name": "九宫格视图",
   "Version": "Internal",
   "Description": "GridView是一个二维网格滚动视图，可将数据源中的一条数据显示为表格中的一个cell",
   "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_GridView/Gridview视图.jpg",
+  "BBS": "",
+  "Keyword": "其它类型",
   "IOS": {
     "Support": 1,
     "MinVersion": "7.0"
@@ -34,7 +37,7 @@
       "Type_JavaScript": "Bool",
       "DefaultValue": "true",
       "EditType": "0",
-      "Group": "UI",
+      "Group": "",
       "Description": "属性设置成true时可以通过点击手机状态栏返回内容的顶部；仅支持iOS平台",
       "Design": {
         "Type": "Boolean",
@@ -94,6 +97,20 @@
       "Description": "为true的时候，当数据内容超出gridview的边界，会出现滚动条标识",
       "Design": {
         "Type": "Boolean",
+        "Data": []
+      }
+    },
+    {
+      "ID": "items",
+      "Name": "GridView显示内容",
+      "Type": "String",
+      "Type_JavaScript": "String",
+      "DefaultValue": "",
+      "EditType": "1",
+      "Group": "",
+      "Description": "设置这个GridView显示内容（必须是一个数组），例如：\r\n[{\"template\":0,\"image\":\"source://1.jpg\"},{\"template\":2,\"title\":\"content\",\"image\":\"source://1.jpg\"}]",
+      "Design": {
+        "Type": "Richtext",
         "Data": []
       }
     },

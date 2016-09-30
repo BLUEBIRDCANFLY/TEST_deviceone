@@ -44,7 +44,7 @@ function commitData(){
 			deviceone.print(JSON.stringify(data),"return");
 			do_DataCache_state.saveData(123, data.obj);
 			userinfo = JSON.stringify(data.obj);
-//			deviceone.print(userinfo);
+			deviceone.print(userinfo);
 			do_Notification.toast("登录成功");
 			do_App.closePage(userinfo);
 		}

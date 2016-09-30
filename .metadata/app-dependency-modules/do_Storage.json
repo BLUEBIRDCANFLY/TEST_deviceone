@@ -2,13 +2,16 @@
   "ID": "do_Storage",
   "IsContainer": "0",
   "Type": "SM",
+  "UIType": "Layout",
   "Name": "文件管理类",
   "Version": "Internal",
   "Description": "DeviceOne定义了自己的文件URI，用户可以利用Storage类来处理各种文件操作，用户可对data://目录进行读写操作（缺省为utf-8格式）。目前暂时不支持中文目录和中文文件名",
   "Icon": "",
+  "BBS": "",
+  "Keyword": "设备功能",
   "IOS": {
     "Support": 1,
-    "MinVersion": "7"
+    "MinVersion": "7.0"
   },
   "Android": {
     "Support": 1,
@@ -68,6 +71,25 @@
       ]
     },
     {
+      "ID": "getFileSize",
+      "Name": "获取文件大小",
+      "Description": "获取指定文件的大小",
+      "ReturnType": "String",
+      "ReturnType_JavaScript": "String",
+      "ReturnDesc": "返回获取到的文件大小，单位为字节，若path为一个目录或不存在的文件，则返回0",
+      "Paras": [
+        {
+          "ID": "path",
+          "Name": "文件路径",
+          "Type": "String",
+          "Type_JavaScript": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": ""
+        }
+      ]
+    },
+    {
       "ID": "readFileSync",
       "Name": "读取文件内容",
       "Description": "获取指定文件的内容的同步方法；使用需谨慎，若读取的数据较多会导致UI卡顿",
@@ -92,6 +114,15 @@
           "Required": 0,
           "DefaultValue": "false",
           "Description": "是否以加密方式读取文件，若文件是以加密方式写的，该参数不设置为true则无法读取；如果操作的是data://security目录，则该属性无效，默认解密"
+        },
+        {
+          "ID": "encoding",
+          "Name": "编码格式",
+          "Type": "String",
+          "Type_JavaScript": "String",
+          "Required": 0,
+          "DefaultValue": "utf-8",
+          "Description": "读文件的编码格式，暂只支持utf-8和gbk两种"
         }
       ]
     }
@@ -254,6 +285,15 @@
           "Required": 0,
           "DefaultValue": "false",
           "Description": "是否以加密方式读取文件，如果操作的是data://security目录，则该属性无效，默认解密"
+        },
+        {
+          "ID": "encoding",
+          "Name": "编码格式",
+          "Type": "String",
+          "Type_JavaScript": "String",
+          "Required": 0,
+          "DefaultValue": "utf-8",
+          "Description": "读文件的编码格式，暂只支持utf-8和gbk两种"
         }
       ]
     },
@@ -319,6 +359,15 @@
           "Required": 0,
           "DefaultValue": "false",
           "Description": "是否以加密方式写文件，如果操作的是data://security目录，则该属性无效，默认加密"
+        },
+        {
+          "ID": "encoding",
+          "Name": "编码格式",
+          "Type": "String",
+          "Type_JavaScript": "String",
+          "Required": 0,
+          "DefaultValue": "utf-8",
+          "Description": "写文件的编码格式，暂只支持utf-8和gbk两种"
         }
       ]
     },

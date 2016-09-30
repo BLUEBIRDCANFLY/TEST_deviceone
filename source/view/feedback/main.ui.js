@@ -25,6 +25,7 @@ var do_ALayout_reg=ui("do_ALayout_reg");
 var do_ALayout_user = ui("do_ALayout_user");
 var do_Label_user = ui("do_Label_user");
 var do_ALayout_userfav = ui("do_ALayout_userfav");
+var do_ALayout_usercart = ui("do_ALayout_usercart");
 
 do_Label_user.visible = false;
 do_ALayout_login.on("touch",function(){
@@ -85,6 +86,14 @@ do_Page.fire("refreshuser");
 do_ALayout_userfav.on("touch",function(){
 	do_App.openPage( {
 		source:"source://view/business/merchantFav.ui",
+		statusBarState:"transparent",
+		animationType:"push_r21"
+	});
+});
+
+do_ALayout_usercart.on("touch",function(){
+	do_App.openPage( {
+		source:"source://view/business/cart/cartmain.ui",
 		statusBarState:"transparent",
 		animationType:"push_r21"
 	});

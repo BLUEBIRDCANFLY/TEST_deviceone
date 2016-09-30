@@ -2,10 +2,13 @@
   "ID": "do_SQLite",
   "IsContainer": "0",
   "Type": "MM",
+  "UIType": "Layout",
   "Name": "SQLite3数据库",
   "Version": "Internal",
   "Description": "提供SQLite3数据库的访问接口",
   "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_SQLite/sqlite.jpg",
+  "BBS": "",
+  "Keyword": "设备功能",
   "IOS": {
     "Support": 1,
     "MinVersion": "7.0"

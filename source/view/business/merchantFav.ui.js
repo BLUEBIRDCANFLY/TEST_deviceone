@@ -41,9 +41,9 @@ function refreshfavData(){
 	http.contentType = "application/x-www-form-urlencoded"; // Content-Type
 	http.url = "http://220.167.137.10/vdian/app/get_my_fav.php?uuid="+uuid;
 	http.on("success", function(data) {
-		deviceone.print(uuid,"update")
+//		deviceone.print(uuid,"update")
 		favo_num=data.num;
-		deviceone.print(favo_num,"favonum");
+//		deviceone.print(favo_num,"favonum");
 		favo_data=JSON.parse(JSON.stringify(data.item_info));
 		do_GridView_fav.rebound();
 		griddatafav.removeAll();
@@ -78,7 +78,7 @@ function loaduser(){
 	
 do_GridView_fav.on("touch", function(data){
 	var onMerchant=griddatafav.getOne(data);
-	deviceone.print(JSON.stringify(onMerchant));
+//	deviceone.print(JSON.stringify(onMerchant));
 	do_App.openPage({
 		source:"source://view/business/merchantDetail.ui", 
 		animationType:"push_r2l", //动画效果：从右向左推出

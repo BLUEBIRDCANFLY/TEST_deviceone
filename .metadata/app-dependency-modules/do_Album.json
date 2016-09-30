@@ -2,10 +2,13 @@
   "ID": "do_Album",
   "IsContainer": "0",
   "Type": "SM",
+  "UIType": "Layout",
   "Name": "相册",
   "Version": "Internal",
   "Description": "可以通过打开手机的系统相册选择图片然后保存在本地目录下，且可以指定保存过后图片的质量，宽高；也支持一张本地的图片收藏到系统相册",
   "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_Album/相册.jpg",
+  "BBS": "",
+  "Keyword": "设备功能,图片处理",
   "IOS": {
     "Support": 1,
     "MinVersion": "7"

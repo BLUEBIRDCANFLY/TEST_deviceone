@@ -2,10 +2,13 @@
   "ID": "do_Label",
   "IsContainer": "0",
   "Type": "UI",
+  "UIType": "View",
   "Name": "标签框",
   "Version": "Internal",
   "Description": "文本标签框，用于显示文本文字，设置字体样式、大小、内容对齐",
   "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_Label/label.jpg",
+  "BBS": "",
+  "Keyword": "其它类型",
   "IOS": {
     "Support": 1,
     "MinVersion": "7.0"
@@ -31,6 +34,7 @@
       "ID": "fontColor",
       "Name": "字体颜色",
       "Type": "String",
+      "Type_JavaScript": "String",
       "DefaultValue": "000000FF",
       "EditType": "1",
       "Group": "",
@@ -44,6 +48,7 @@
       "ID": "fontSize",
       "Name": "字体大小",
       "Type": "Number",
+      "Type_JavaScript": "Number",
       "DefaultValue": "17",
       "EditType": "1",
       "Group": "",
@@ -57,10 +62,11 @@
       "ID": "fontStyle",
       "Name": "字体风格",
       "Type": "String",
+      "Type_JavaScript": "String",
       "DefaultValue": "normal",
       "EditType": "1",
       "Group": "",
-      "Description": "包含4种类型：normal：常规bold：粗体italic：斜体bold_italic：粗斜体",
+      "Description": "包含4种类型：normal：常规bold：粗体italic：斜体bold_italic：粗斜体（iOS平台不支持）",
       "Design": {
         "Type": "List",
         "Data": [
@@ -84,9 +90,24 @@
       }
     },
     {
+      "ID": "linesSpace",
+      "Name": "行间距",
+      "Type": "Number",
+      "Type_JavaScript": "Number",
+      "DefaultValue": "",
+      "EditType": "1",
+      "Group": "",
+      "Description": "设置每行字之间的间距，windows平台不支持",
+      "Design": {
+        "Type": "UInteger",
+        "Data": []
+      }
+    },
+    {
       "ID": "maxHeight",
       "Name": "最大高度",
       "Type": "Number",
+      "Type_JavaScript": "Number",
       "DefaultValue": "",
       "EditType": "0",
       "Group": "",
@@ -100,10 +121,11 @@
       "ID": "maxLines",
       "Name": "最多行数",
       "Type": "Number",
+      "Type_JavaScript": "Number",
       "DefaultValue": "1",
       "EditType": "0",
       "Group": "",
-      "Description": "最大行数，说明：设置文本内容显示最大行数，如显示内容超过了最大行值则结尾用省略号...表示（iOS只有设置成1时才会显示...）；缺省为1行，如果为小于或等于0表示不限行数",
+      "Description": "最大行数，说明：设置文本内容显示最大行数，如显示内容超过了最大行值则结尾用省略号...表示（iOS只有设置成1时才会显示...）；缺省为1行，如果为小于或等于0表示不限行数；当高度为-1时设置该属性无效",
       "Design": {
         "Type": "UInteger",
         "Data": []
@@ -113,6 +135,7 @@
       "ID": "maxWidth",
       "Name": "最大宽度",
       "Type": "Number",
+      "Type_JavaScript": "Number",
       "DefaultValue": "",
       "EditType": "0",
       "Group": "",
@@ -126,6 +149,7 @@
       "ID": "text",
       "Name": "文本显示内容",
       "Type": "String",
+      "Type_JavaScript": "String",
       "DefaultValue": "",
       "EditType": "1",
       "Group": "",
@@ -139,6 +163,7 @@
       "ID": "textAlign",
       "Name": "文本对齐方式",
       "Type": "String",
+      "Type_JavaScript": "String",
       "DefaultValue": "left",
       "EditType": "0",
       "Group": "",
@@ -165,6 +190,7 @@
       "ID": "textFlag",
       "Name": "字体标示",
       "Type": "String",
+      "Type_JavaScript": "String",
       "DefaultValue": "normal",
       "EditType": "0",
       "Group": "",

@@ -17,7 +17,7 @@ var loadingUI = ui("loadingUI");
 //定义变量
 var type_id;
 var type_name;
-var page,pageNum,uuid;
+var page,pageNum,uuid,cart_num;
 var userdata;
 //给do_ListView_news绑定数据
 do_ListView_merchant.bindItems(listdataMerchant);
@@ -91,8 +91,12 @@ function loaduser(){
 	userdata=do_DataCache_state.loadData(123);
 	if (userdata==undefined||userdata == "" ||userdata.length == 0){
 		uuid="";
+		cart_num="";
 	}else {
 		uuid=userdata.uuid;
+//		deviceone.print(JSON.stringify(userdata),"loaduser");
+		cart_num=userdata.cata_num;
+		deviceone.print(cart_num,"cartnum");
 	}
 //	deviceone.print(JSON.stringify(userdata),"userdata");
 	};
@@ -139,11 +143,12 @@ do_Page.on("result",function(data){
 //点击一条产品后
 do_ListView_merchant.on("touch", function(data){
 	var onMerchant=listdataMerchant.getOne(data);
-	deviceone.print(JSON.stringify(onMerchant.fav_flag),"Merchant");
+//	deviceone.print(JSON.stringify(onMerchant),"Merchant");
+	loaduser();
 	do_App.openPage({
 		source:"source://view/business/merchantDetail.ui", 
 		animationType:"push_r2l", //动画效果：从右向左推出
 		statusBarState:"transparent",
-		data:JSON.stringify({title:onMerchant.item_name, url:onMerchant.imgs,merchantid:onMerchant.itemid,price:onMerchant.price,standard:onMerchant.pkg,favo:onMerchant.fav_flag}) //传递页面之间的参数
+		data:JSON.stringify({title:onMerchant.item_name, url:onMerchant.imgs,merchantid:onMerchant.itemid,price:onMerchant.price,standard:onMerchant.pkg,favo:onMerchant.fav_flag,cart_num:cart_num}) //传递页面之间的参数
 	});
 });
