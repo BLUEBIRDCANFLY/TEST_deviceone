@@ -66,17 +66,24 @@
 						"y":"232",
 						"id":"do_ScrollView_cart",
 						"type":"do_ScrollView",
-						"views":[],
+						"views":[
+							{
+								"width":"1080",
+								"id":"do_ALayout_2",
+								"type":"do_ALayout",
+								"views":[
+									{
+										"templates":"source://view/business/cart/cell.ui,source://view/business/cart/remove_cell.ui",
+										"width":"1074",
+										"id":"do_SlideListView_cart",
+										"type":"do_SlideListView",
+										"height":"1526"
+									}
+								],
+								"height":"1516"
+							}
+						],
 						"height":"-1"
-					},
-					{
-						"templates":"source://view/business/cart/cell.ui,source://view/business/cart/remove_cell.ui",
-						"x":"2",
-						"width":"1074",
-						"y":"232",
-						"id":"do_SlideListView_cart",
-						"type":"do_SlideListView",
-						"height":"1526"
 					},
 					{
 						"width":"822",
